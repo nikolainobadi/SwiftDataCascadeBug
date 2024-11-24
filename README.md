@@ -73,9 +73,7 @@ saveContextIfNecessary()
 
 ### **Apple Feedback ID**
 ```plaintext
-This issue has been reported to Apple using the Feedback Assistant.
-
-Feedback ID: FB12345678
+This issue has already been reported to Apple via the Feedback Assistant.
 ```
 
 ## License
