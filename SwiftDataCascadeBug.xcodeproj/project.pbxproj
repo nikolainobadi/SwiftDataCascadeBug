@@ -8,29 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		D40E2EDB2CF2DA17009BFE82 /* SwiftDataCascadeBugApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E2EDA2CF2DA17009BFE82 /* SwiftDataCascadeBugApp.swift */; };
-		D40E2EDD2CF2DA17009BFE82 /* AutoSavingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E2EDC2CF2DA17009BFE82 /* AutoSavingContentView.swift */; };
 		D40E2EDF2CF2DA17009BFE82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40E2EDE2CF2DA17009BFE82 /* Assets.xcassets */; };
 		D40E2EE22CF2DA17009BFE82 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40E2EE12CF2DA17009BFE82 /* Preview Assets.xcassets */; };
 		D40E2EF12CF2DCD3009BFE82 /* Folder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E2EF02CF2DCD3009BFE82 /* Folder.swift */; };
 		D40E2EF32CF2DCD8009BFE82 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E2EF22CF2DCD8009BFE82 /* Item.swift */; };
-		D40E2EF52CF2DD2C009BFE82 /* NavButtonViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E2EF42CF2DD2C009BFE82 /* NavButtonViewModifier.swift */; };
-		D40E2EF72CF2DD4F009BFE82 /* FolderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E2EF62CF2DD4F009BFE82 /* FolderDetailView.swift */; };
-		D40E2EF92CF2DD7C009BFE82 /* FolderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E2EF82CF2DD7C009BFE82 /* FolderListView.swift */; };
-		D40E2EFB2CF2DDFC009BFE82 /* ManualSavingContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40E2EFA2CF2DDFC009BFE82 /* ManualSavingContentView.swift */; };
+		D4A652262CF306BF00E8CF35 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A652252CF306BF00E8CF35 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D40E2ED72CF2DA17009BFE82 /* SwiftDataCascadeBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDataCascadeBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40E2EDA2CF2DA17009BFE82 /* SwiftDataCascadeBugApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataCascadeBugApp.swift; sourceTree = "<group>"; };
-		D40E2EDC2CF2DA17009BFE82 /* AutoSavingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoSavingContentView.swift; sourceTree = "<group>"; };
 		D40E2EDE2CF2DA17009BFE82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D40E2EE12CF2DA17009BFE82 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D40E2EF02CF2DCD3009BFE82 /* Folder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Folder.swift; sourceTree = "<group>"; };
 		D40E2EF22CF2DCD8009BFE82 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		D40E2EF42CF2DD2C009BFE82 /* NavButtonViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavButtonViewModifier.swift; sourceTree = "<group>"; };
-		D40E2EF62CF2DD4F009BFE82 /* FolderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderDetailView.swift; sourceTree = "<group>"; };
-		D40E2EF82CF2DD7C009BFE82 /* FolderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FolderListView.swift; sourceTree = "<group>"; };
-		D40E2EFA2CF2DDFC009BFE82 /* ManualSavingContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualSavingContentView.swift; sourceTree = "<group>"; };
+		D4A652252CF306BF00E8CF35 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,9 +99,7 @@
 		D40E2EEB2CF2DC4C009BFE82 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				D40E2EED2CF2DC90009BFE82 /* AutoSave */,
-				D40E2EEE2CF2DC94009BFE82 /* ManualSave */,
-				D40E2EEF2CF2DC98009BFE82 /* Shared */,
+				D4A652252CF306BF00E8CF35 /* ContentView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -121,32 +111,6 @@
 				D40E2EF22CF2DCD8009BFE82 /* Item.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		D40E2EED2CF2DC90009BFE82 /* AutoSave */ = {
-			isa = PBXGroup;
-			children = (
-				D40E2EDC2CF2DA17009BFE82 /* AutoSavingContentView.swift */,
-			);
-			path = AutoSave;
-			sourceTree = "<group>";
-		};
-		D40E2EEE2CF2DC94009BFE82 /* ManualSave */ = {
-			isa = PBXGroup;
-			children = (
-				D40E2EFA2CF2DDFC009BFE82 /* ManualSavingContentView.swift */,
-			);
-			path = ManualSave;
-			sourceTree = "<group>";
-		};
-		D40E2EEF2CF2DC98009BFE82 /* Shared */ = {
-			isa = PBXGroup;
-			children = (
-				D40E2EF42CF2DD2C009BFE82 /* NavButtonViewModifier.swift */,
-				D40E2EF62CF2DD4F009BFE82 /* FolderDetailView.swift */,
-				D40E2EF82CF2DD7C009BFE82 /* FolderListView.swift */,
-			);
-			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,14 +183,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D40E2EF52CF2DD2C009BFE82 /* NavButtonViewModifier.swift in Sources */,
-				D40E2EF72CF2DD4F009BFE82 /* FolderDetailView.swift in Sources */,
 				D40E2EF32CF2DCD8009BFE82 /* Item.swift in Sources */,
-				D40E2EDD2CF2DA17009BFE82 /* AutoSavingContentView.swift in Sources */,
-				D40E2EFB2CF2DDFC009BFE82 /* ManualSavingContentView.swift in Sources */,
+				D4A652262CF306BF00E8CF35 /* ContentView.swift in Sources */,
 				D40E2EDB2CF2DA17009BFE82 /* SwiftDataCascadeBugApp.swift in Sources */,
 				D40E2EF12CF2DCD3009BFE82 /* Folder.swift in Sources */,
-				D40E2EF92CF2DD7C009BFE82 /* FolderListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

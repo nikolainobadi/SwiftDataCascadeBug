@@ -12,8 +12,10 @@ import Foundation
 final class Item {
     var folder: Folder?
     var timestamp: Date
+    var isManuallySaved: Bool
     
-    init(timestamp: Date) {
+    init(timestamp: Date, isManuallySaved: Bool) {
         self.timestamp = timestamp
+        self.isManuallySaved = isManuallySaved
     }
 }

@@ -12,7 +12,10 @@ final class Folder {
     @Attribute(.unique) var name: String
     @Relationship(deleteRule: .cascade) var items: [Item] = []
     
-    init(name: String) {
+    var isManuallySaved: Bool
+    
+    init(name: String, isManuallySaved: Bool) {
         self.name = name
+        self.isManuallySaved = isManuallySaved
     }
 }

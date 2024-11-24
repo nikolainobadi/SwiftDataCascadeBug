@@ -9,13 +9,13 @@ struct SwiftDataCascadeBugApp: App {
     var body: some Scene {
         WindowGroup {
             TabView {
-                AutoSavingContentView()
+                ContentView(isManuallySaved: false)
                     .modelContainer(for: Folder.self)
                     .tabItem {
                         Label("Auto Save", systemImage: "tray.full")
                     }
                 
-                ManualSavingContentView()
+                ContentView(isManuallySaved: true)
                     .modelContainer(for: Folder.self, isAutosaveEnabled: false)
                     .tabItem {
                         Label("Manual Save", systemImage: "tray.and.arrow.down")
