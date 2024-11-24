@@ -9,7 +9,7 @@ import SwiftData
 import Foundation
 
 @Model
-final class Item {
+final class Item: Identifiable {
     var folder: Folder?
     var timestamp: Date
     var isManuallySaved: Bool

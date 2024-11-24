@@ -8,7 +8,7 @@
 import SwiftData
 
 @Model
-final class Folder {
+final class Folder: Identifiable {
     @Attribute(.unique) var name: String
     @Relationship(deleteRule: .cascade) var items: [Item] = []
     
